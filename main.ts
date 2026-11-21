@@ -43,6 +43,13 @@ if (typeof parsed !== 'object' || parsed === null || typeof (parsed as { url?: u
   console.error(`${VIDEO_FILE} must be a JSON object with a string "url" field.`);
   process.exit(1);
 }
+// The gate reads the video's views from YouTube and ranks Shorts by views,
+// so the URL must be a real YouTube Shorts URL — a plain watch link or any
+// other address would be silently unranked. Fail here with a clear message.
+if (!(parsed as { url: string }).url.startsWith('https://www.youtube.com/shorts/')) {
+  console.error(`${VIDEO_FILE} "url" must be a YouTube Shorts URL (https://www.youtube.com/shorts/...), got: ${(parsed as { url: string }).url}`);
+  process.exit(1);
+}
 try {
   copyFileSync(join(BOT_DIR, VIDEO_FILE), join(OUTPUT_DIR, VIDEO_FILE));
 } catch (err) {
