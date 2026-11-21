@@ -34,7 +34,7 @@ Published as a public YouTube Short from the channel "Arbi". `VIDEO.json` names 
 >
 > GTA 6 is finally here! Jason picks Lucia up from prison — the reunion every GTA fan waited 13 years for. I cut this clip with my AI agent.
 >
-> makefun-squid-aspen-windsock
+> makefun-linen-pueblo-cosmos
 >
 > #GTA6 #GTA #GrandTheftAuto #ViceCity #Leonida #Shorts
 
