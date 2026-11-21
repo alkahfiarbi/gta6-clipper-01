@@ -23,7 +23,7 @@ A 33-second vertical GTA 6 clip for make.fun's "Clip GTA 6 for the most YouTube 
 Published as a public YouTube Short from the channel "Arbi". `VIDEO.json` names its address once it is uploaded:
 
 ```json
-{"url": "https://www.youtube.com/shorts/<id>"}
+{"url": "https://www.youtube.com/shorts/7dTtft4piDo"}
 ```
 
 **Title:** GTA 6 is FINALLY HERE — Jason picks Lucia up from prison! #GTA6 #Shorts
